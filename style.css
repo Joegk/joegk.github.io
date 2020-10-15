@@ -1,0 +1,52 @@
+body,
+html {
+	width: 100%;
+	height: 100%;
+	font-family: 'Staatliches', cursive;
+	background: url(b_image.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+h1 {
+	color: #18a3ffc2;
+	font-size: 5rem;
+}
+
+.buffer {
+	height: 8rem;
+}
+
+hr {
+	border-color: #18a3ffc2;
+	border-width: 3px;
+	max-width: 100px;
+}
+
+.btn {
+	color: black;
+	font-weight: 700;
+	border-radius: 300PX;
+}
+
+.btn-primary {
+	background-color: #18a3ffc2;
+	border-color: #18a3ffc2;
+
+
+}
+
+.btn-primary:hover {
+	color: black;
+	font-size: 20px;
+	background-color: #0099ff;
+	border-color: #0099ff;
+	border-width: 3px;
+	transition: .6s;
+}
+
+.btn-xl {
+	padding: 1rem 2rem;
+}
